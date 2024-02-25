@@ -1,0 +1,16 @@
+jira:
+  server: 'YOUR_JIRA_SERVER'
+  api_token: 'YOUR_API_TOKEN'
+  username: 'YOUR_USERNAME'
+
+project:
+  key: 'YOUR_PROJECT_KEY'
+  fix_version: 'Your Fix Version'
+
+fields:
+  - 'key'
+  - 'summary'
+  - 'fixVersions'
+  - 'status'
+  - 'customfield_XXXXX'  # Add more custom fields as needed, replace XXXXX with actual custom field ID
+  - 'customfield_YYYYY'  # Example of another custom field
